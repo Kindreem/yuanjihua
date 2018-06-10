@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<script>
+        $(document).ready(function() {
+            
+            
+                zhuce()
+       
+            
+         function zhuce() {
+            $.ajax({
+                type:"POST",
+                 url:"http://www.ftusix.com/static/data/register.php",
+                 // dataType: "json/html",
+                 dataType:"TEXT",
+                 // dataType:"TEXT", 
+                 data: {"mobile":"13294126055","pwd":"123456789","sms_code":"123456","status":"1","data":{"user_id":"2","token": "285c595717332b49cfb72d1d48a5a656","nick_name":"eawd","avatar": "","mobile":"13294126055","sex":"女"}},
+                 success: function(msg) {
+                  
+                  
+                 	// var obj = eval("("+data+")");
+                 	console.log(msg);
+                 },
+                 error: function (xhr) {
+                    
+                 	alert(xhr.status);
+                 }
+            });
+        }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* 页眉 */
+.comwidth {width: 1280px;margin-left: auto;margin-right: auto;}
+header {height: 92px;margin:0 auto;}
+header a:hover {color: red;}
+.leftlogo img:first-child {margin-left: 7px;margin-top: 15px;}
+.leftlogo img:last-child {margin-top: 20px;margin-left: 7px;}
+.center div {margin-left: 104px;margin-top: 31px;}
+.center a {margin-right: 46px;font:bold 20px "微软雅黑";}
+.righth div {margin-top: 36px;}
+.righth a {font:bold 18px "微软雅黑";padding-left: 9px;padding-right: 9px;} 
+.righth div a:first-child {border-right: solid 1px gray;}
+
+/* 轮播图 */  
+.carousel{position: relative;}   
+.box {height: 474px;width: 1280px;overflow: hidden;}
+.box div{height: 2844px;width: 1280px;}
+.box a{display: inline-block;}
+.box div a {display:none;}
+.box a.show {display:block!important;}
+.spot {height: 16px;position: absolute;left: 523px;top: 432px;}
+.spot a{display:inline-block;width: 16px;height: 16px;background-color:#c8c8c8;margin-right: 27px;border-radius:50%}
+.spot a.current{background-color: white;}
+.active {position: absolute;right:0;top: 330px;}
+
+/* 文章部分 */
+.article {margin-top: 48px;}
+.nav {padding-bottom:44px;border-bottom: medium solid black;}
+.nav p,.nav a{font: 18px "微软雅黑";}
+.nav p {margin-left: 26px;margin-right: 73px;}
+.nav div a {margin-right: 35px;}
+.nav a:hover {color: red;}
+.nav div a:first-child {margin-right: 49px!important;}
+.onet {padding-bottom:54px;border-bottom:thin solid #e3e3e3;}
+.alistt {padding-top: 34px;}
+.alistt ul li{display: inline-block;font: 16px "微软雅黑";color:gray;}
+.alistt ul li a {color:gray;}
+.alistt ul li:nth-child(2),.alistt ul li:nth-child(3) {margin-right: 9px;margin-left: 11px;}
+.alistt ul li:first-child {margin-left: 23px;margin-right: 9px;}
+.alistt ul li a:hover {color: orange;}
+.alistb {padding-top: 19px;}
+.alistext {padding-left: 27px;} 
+.alistext a {font:bold 20px "微软雅黑";}
+.alistext a:hover {text-decoration:underline;}
+.alistext a::visited {color:gray;}
+.alisticon {padding-right: 35px;}
+.alisticon a{margin-left: 24px;}
+.alisticon a span {margin-left: 6PX;}
+
+
+

@@ -1,0 +1,40 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function() {
+            
+            
+                setlist()
+       
+            
+         function setlist() {
+            $.ajax({
+                type:"POST",
+                 url:"http://www.ftusix.com/static/data/writeArticle.php",
+                 datatype:"TEXT",
+                 // dataType:"TEXT", 
+                 data: {"content":"<p>学习使我快乐</p>","md_content":"学习使我快乐","user_id":"1","nickname":'张三',"type":"1","tech_type":"1","title":"hello world","isEdit": "true","topic_id":"1"},
+                 success: function(data) {
+                  
+                  
+                 	// var obj = eval("("+msg+")");
+                 	console.log(data);
+                 },
+                 error: function (xhr) {
+                 	alert(xhr.status);
+                 }
+            });
+        }
+        });
+    </script>
+</body>
+</html>

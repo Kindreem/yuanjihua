@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<script>
+        $(document).ready(function() {
+            
+            
+                login()
+       
+            
+         function login() {
+            $.ajax({
+                type:"POST",
+                 url:"http://www.ftusix.com/static/data/login.php",
+                 // dataType: "json/html",
+                 dataType:"TEXT",
+                 // dataType:"TEXT", 
+                 data: {"mobile":"13333333333","pwd":"546456"},
+                 success: function(data) {
+                  
+                  
+                 	// var obj = eval("("+data+")");
+                 	console.log(data);
+                 },
+                 error: function (xhr) {
+                    
+                 	alert(xhr.status);
+                 }
+            });
+        }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+/* 页眉 */
+.comwidth {width: 1280px;margin-left: auto;margin-right: auto;}
+.top {border-bottom: 3px solid #dddddd;}
+header {height: 92px;margin:0 auto;}
+header a:hover {color: red;}
+.leftlogo img:first-child {margin-left: 7px;margin-top: 15px;}
+.leftlogo img:last-child {margin-top: 20px;margin-left: 7px;}
+.center div {margin-left: 104px;margin-top: 31px;}
+.center a {margin-right: 46px;font:bold 20px "微软雅黑";}
+.righth div {margin-top: 36px;}
+.righth a {font:bold 18px "微软雅黑";padding-left: 9px;padding-right: 9px;} 
+.righth div a:first-child {border-right: solid 1px gray;}
+
+/* 文章分类 */
+.texttype {height: 79px;line-height: 79px;border-bottom: 2px solid #dddddd;}
+.nav ul li {float: left;}
+.nav ul li span {display:inline-block; height: 18px;width: 18px;margin-right: 15px;}
+.nav li:first-child span{background: #259b23;}
+.nav li:nth-child(2) span{background: #259d94;}
+.nav li:nth-child(3) span{background: #26719b;}
+.nav li:last-child span{background: #9c2698;}
+.nav ul li a{font: 16px "微软雅黑";margin-right: 45px;}
+
+.alltag {height: 116px;border-bottom: 3px solid #dddddd;}
+.newhot{padding-top: 20px;}
+.newhot ul,.newhot button {font:bold 18px "微软雅黑";}
+.newhot ul li {float: left;padding: 8px 18px;} 
+.current {background: red;}
+.current a {color:white;}
+.newhot button {background: red;width: 134px;height: 46px;border-radius:18px;border: none;color: white;}
+
+.tag {margin-top: 24px;font: 16px "微软雅黑";}
+.rtag span {margin-left: 70px;}
+.rtag span:last-child {margin-right: 10px;}
+
+/* 文章列表 */
+.olist {height: 112px;line-height: 112PX;border-bottom: 2px solid #dddddd;}
+.olist div a {font: bold 18px "微软雅黑";width: 800px;display: inline-block;}
+.olist div span {font: 14px "微软雅黑";width: 76px;text-align: center;display: inline-block;padding-left: 28px;}
+.olist div span:last-child {padding-left: 38px;margin-right: 6px;}
